@@ -417,3 +417,70 @@ a{
       color: var(--razerGreen);
       margin-bottom: 10px;
     }
+
+
+
+
+    /* Resume Page */
+
+    #sec-6{
+      height: 650px;
+      /* background-image: url(/images/back-image/6.jpg);
+      background-size: cover; */
+      background-color: black;
+  
+      }
+  
+     .resume-head-div{
+      margin-bottom: 50px;
+    }
+      .resume-head{
+        background-color: black;
+        color: white;
+        border: 5px solid var(--razerGreen);
+        border-radius: 50px;
+        font-family: "DM Serif Display";
+        font-size: 70px;
+        margin: auto;
+      }
+  
+      .resume-title{
+        color: white;
+        /* border-style: solid;
+        border-color: var(--razerGreen); */
+        border-radius: 20px;
+        font-size: 43px;
+        text-decoration: underline;
+        text-decoration-color: var(--razerGreen);
+        margin-top: 50px;
+      
+        /* background-color: none;
+        animation-name: sideToSide;
+        animation-duration: 3.5s;
+        animation-delay: 2s;
+        position: relative;
+        animation-direction: alternate; */
+      }
+  
+      .resume-title-2{
+        color: white;
+        border-radius: 20px;
+        font-size: 43px;
+        text-decoration: underline;
+        text-decoration-color: var(--razerGreen);
+        margin-top: 90px;
+      
+        /* background-color: none;
+        animation-name: sideToSide;
+        animation-duration: 3.5s;
+        animation-delay: 2s;
+        position: relative;
+        animation-direction: alternate; */
+      }
+  
+  
+      .resume-details{
+        color: #44d62c;
+        font-size: 28px;
+      }
+  
