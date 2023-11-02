@@ -260,3 +260,56 @@ a{
   filter: none;
   transform: scale(1.05);
 }
+
+
+
+/* Testimonials Page */
+
+
+#sec-4{
+  height: 1500px;
+  /* background-image: url(/images/back-image/6.jpg);
+  background-size: cover; */
+  color: var(--razerGreen);
+  background-color: black;
+  }
+
+  .test-head-div{
+    margin-bottom: 80px;
+  }
+
+  .test-head{
+    background-color: black;
+    color: white;
+    border: 5px solid var(--razerGreen);
+    border-radius: 50px;
+    font-family: "DM Serif Display";
+    font-size: 70px;
+    margin: auto;
+  }
+
+  .card-title{
+    color: var(--razerGreen);
+    background-color: black;
+
+  }
+
+  .card-text{
+    font-size: 16px;
+    font-family: "Roboto";
+  }
+
+  .card-img-top{
+    height: 300px;
+  }
+
+  .test-row-div{
+    margin-bottom: 40px;
+    margin-left: 90px
+  }
+  
+  .card-img-top{
+    height: 300px;
+  }
+
+  
