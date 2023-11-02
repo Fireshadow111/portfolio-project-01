@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  
+}
+
+section{
+  padding-top: 110px;
+}
+
+:root{
+  --razerGreen: #44d62c;
+}
+
+/* Home Page */
+
+#sec-1{
+background-image: url(https://i.postimg.cc/T2jVDj64/black-and-green-material-design-background-with-green-diagonal-stripes-severed-by-shadows-modern-abs.jpg);
+background-size: cover;
+background-attachment: fixed;
+height: 1000px;
+
+}
+
+
+ul{
+  color: white;
+}
+
+li{
+  font-size: 25px;
+  margin-right: 20px;
+  
+
+  
+}
+
+li:hover{
+  text-decoration: underline;
+  text-decoration-color: var(--razerGreen);
+  text-decoration-thickness: 3px;
+}
+
+
+a{
+  font-family: "DM Serif Display";
+  
+}
+
+.home-page-div{
+  margin-top: 150px;
+
+  
+}
+
+.home-logo{
+  width: 150px;
+  height: 50px;
+  margin-right: 950px;
+  margin-left: 10px;
+
+ 
+}
+
+
+.home-head{
+  background-color: black;
+  color: var(--razerGreen);
+  border-style: solid;
+  border-color: var(--razerGreen);
+  border-radius: 50px;
+  font-family: "DM Serif Display";
+  font-size: 110px;
+  height: 220px;
+
+  background-color: none;
+  animation-name: welcome;
+  animation-duration: 15s;
+  animation-delay: 0s;
+  position: relative;
+  animation-direction: alternate;
+}
+
+
+/* Home Page Animations */
+
+@keyframes welcome{
+  0%{
+      left: 0px;
+      top: -800px;
+  }
+
+  25%{
+      left: 0px;
+      top: 0px;
+
+  }
+
+  50%{
+      left: 0px;
+     top:0px;
+
+  }
+
+  75%{
+      top: 0px;
+      left: 0px 
+   }
+
+   100%{
+      left: 0px;
+      top: 0px;
+  }
+}  
+
+
+
+.awd{
+  font-family: "Roboto";
+  font-size: 40px;
+  display: block;
+  margin-left: 10px;
+  color: white;
+  font-style: italic;
+}
+
+.home-button{
+  width: 150px;
+  height: 50px;
+  margin-right: 8px;
+  font-family: "Roboto";
+  font-size: 22px;
+  background-color: var(--razerGreen);
+  border-color: black;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: black;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  font-weight: bold;
+}
+
+.home-button:hover{
+  background-color: black;
+  color: var(--razerGreen);
+  border-color: white;
+
+}
+
