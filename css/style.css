@@ -226,3 +226,37 @@ a{
   filter: grayscale(100%);
 }
 
+
+
+/* Skills Page */
+
+#sec-3{
+  height: 495px;
+  background-color: black;
+  
+  }
+
+.skills-div{
+  margin-bottom: 50px;
+}
+.skills-head{
+  background-color: black;
+  color: white;
+  border: 5px solid var(--razerGreen);
+  border-radius: 50px;
+  font-family: "DM Serif Display";
+  font-size: 70px;
+  margin: auto;
+}
+
+.skills-img{
+  width: 400px;
+  height: 300px;
+  filter: grayscale(100%);
+  transition: filter 0.5s, transform 0.5s;
+}
+
+.skills-img:hover{
+  filter: none;
+  transform: scale(1.05);
+}
