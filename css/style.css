@@ -484,3 +484,112 @@ a{
         font-size: 28px;
       }
   
+
+
+
+      /* Contact Page */
+
+    #sec-7{
+      height: 1000px;
+      color: white;
+      background-color: black;
+      }
+  
+      .contact-container {
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+      } 
+      
+      .contact-div{
+        margin-bottom: 50px;
+        
+      }
+  
+      .contact-head{
+        background-color: black;
+        color: white;
+        border: 5px solid var(--razerGreen);
+        border-radius: 50px;
+        font-family: "DM Serif Display";
+        font-size: 70px;
+        margin: auto;
+      }
+  
+  
+      .contactForm-div{
+        width: 400px;
+        margin: auto;
+        
+      }
+    
+      label{
+        font-family: "Roboto";
+        font-size: 22px;
+        color: var(--razerGreen);
+      }
+  
+   input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    background-color: var(--razerGreen);
+    border-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: var(--razerGreen);
+    border-color: white;
+  }
+  
+  
+  .icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   
+  }
+  
+  .linkedin-div{
+    margin-right: 30px;
+  }
+  
+  .github-div{
+    margin-right: 30px;
+  }
+  
+  .whatsapp-div{
+    margin-right: 30px;
+  }
+  
+  .instagram-div{
+    margin-right: 30px;
+  }
+  
+  .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 20px;
+  }
+  
+  .footer-name{
+    font-size: 28px;
+  }
