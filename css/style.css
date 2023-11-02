@@ -148,3 +148,81 @@ a{
 
 }
 
+
+
+/* About Page */
+
+#sec-2{
+  height: 950px;
+  background-color: black;
+  }
+
+  .about-head-div{
+    margin-bottom: 20px;
+  
+  }
+
+.about-me-head{
+  color: white;
+  border: 5px solid var(--razerGreen);
+  border-radius: 50px;
+  font-family: "DM Serif Display";
+  font-size: 70px;
+  margin: auto;
+
+}
+
+.about-me-title{
+  color: white;
+  border-radius: 20px;
+  font-size: 43px;
+  text-decoration: underline;
+  text-decoration-color: var(--razerGreen);
+}
+
+  /* background-color: none;
+  animation-name: sideToSide;
+  animation-duration: 3.5s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: alternate;
+} */
+
+.about-me-body{
+  color: var(--razerGreen);
+  font-size: 28px;
+  margin-bottom: 90px;
+  
+
+}
+
+.about-me-pi{
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: var(--razerGreen);
+  font-size: 43px;
+
+  /* background-color: none;
+  animation-name: sideToSide;
+  animation-duration: 3.5s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: alternate; */
+}
+
+.about-me-pi-bod{
+  color: var(--razerGreen);
+  /* border-style: solid;
+  border-color: green;
+  border-radius: 20px; */
+  font-size: 28px;
+}
+
+.about-img-div{
+  margin-top: 30px;
+}
+
+.about-img{
+  filter: grayscale(100%);
+}
+
