@@ -153,14 +153,11 @@ a{
 /* About Page */
 
 #sec-2{
-  height: 980px;
+  height: 870px;
   background-color: black;
   }
 
-  .about-head-div{
-    margin-bottom: 20px;
-  
-  }
+ 
 
 .about-me-head{
   color: white;
@@ -173,9 +170,10 @@ a{
 }
 
 .about-me-title{
+  margin-top: 50px;
   color: white;
   border-radius: 20px;
-  font-size: 43px;
+  font-size: 41px;
   text-decoration: underline;
   text-decoration-color: var(--razerGreen);
 }
@@ -190,7 +188,7 @@ a{
 
 .about-me-body{
   color: var(--razerGreen);
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 90px;
   
 
@@ -200,7 +198,7 @@ a{
   color: white;
   text-decoration: underline;
   text-decoration-color: var(--razerGreen);
-  font-size: 43px;
+  font-size: 41px;
 
   /* background-color: none;
   animation-name: sideToSide;
@@ -215,11 +213,11 @@ a{
   /* border-style: solid;
   border-color: green;
   border-radius: 20px; */
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .about-img-div{
-  margin-top: 30px;
+  transform: translateY(-60px);
 }
 
 .about-img{
@@ -487,7 +485,7 @@ a{
         /* border-style: solid;
         border-color: var(--razerGreen); */
         border-radius: 20px;
-        font-size: 43px;
+        font-size: 41px;
         text-decoration: underline;
         text-decoration-color: var(--razerGreen);
         margin-top: 50px;
@@ -503,7 +501,7 @@ a{
       .resume-title-2{
         color: white;
         border-radius: 20px;
-        font-size: 43px;
+        font-size: 41px;
         text-decoration: underline;
         text-decoration-color: var(--razerGreen);
         margin-top: 90px;
@@ -519,7 +517,7 @@ a{
   
       .resume-details{
         color: #44d62c;
-        font-size: 28px;
+        font-size: 26px;
       }
   
 
@@ -636,16 +634,13 @@ a{
 
 
   /* Responsiveness */
-
-
-
   @media screen and (max-width: 300px) {
-
 
 
     /* Home Page */
     #sec-1 {
       height: auto;
+      width: auto;
     }
   
     .home-page-div{
@@ -654,17 +649,17 @@ a{
     }
 
     .home-head {
-      font-size: 40px;
+      font-size: auto;
       height: auto;
-      width: 300px;
+      width: auto;
     }
   
 
     .home-logo {
-      width: 150px;
-      height: 50px;
-      margin-right: 10px;
-      margin-left: 10px;
+      width: auto;
+      height: auto;
+      margin: auto;
+
     }
   
 
@@ -748,6 +743,7 @@ a{
     /* Testimonials Page */
     #sec-4 {
       height: auto;
+      width: auto;
     }
   
 
@@ -768,13 +764,13 @@ a{
 
     .test-card-img-top {
       height: auto;
-      max-width: 150px;
     }
   
 
     /* Project Page */
     #sec-5 {
       height: auto;
+      width: auto;
     }
   
 
@@ -791,7 +787,7 @@ a{
     .proj-cards-but {
       font-size: 16px;
       width: 120px;
-      height: 40px;
+      height: auto;
     }
 
   
@@ -836,8 +832,8 @@ a{
     }
   
     input[type="submit"] {
-      width: 130px;
-      height: 40px;
+      width: auto;
+      height: auto;
       font-size: 18px;
     }
   
@@ -872,15 +868,15 @@ a{
   
 
     .home-logo {
-      width: 150px;
-      height: 50px;
-      margin-right: 10px;
-      margin-left: 10px;
+      width: auto;
+      height: auto;
+      margin-right: auto;
+      margin-left: auto;
     }
   
     .home-button {
-      width: 150px;
-      height: 50px;
+      width: auto;
+      height: auto;
       font-size: 20px;
     }
   
@@ -906,7 +902,7 @@ a{
 
     .about-me-body {
       font-size: 20px;
-      margin-bottom: 50px;
+      margin-bottom: auto;
     }
   
     .about-me-pi {
@@ -919,7 +915,7 @@ a{
     }
   
     .about-img {
-      width: 200px;
+      width: auto;
       height: auto;
     }
   
@@ -946,7 +942,15 @@ a{
 
     .skills-img-top {
       height: auto;
-      max-width: 200px;
+      
+    }
+
+    .skills-card-body{
+      height: auto;
+    }
+
+    .skills-col-div{
+      align-items: center;
     }
   
 
@@ -968,11 +972,20 @@ a{
 
     .test-card-text {
       font-size: 20px;
+      height: auto;
     }
   
     .test-card-img-top {
       height: auto;
-      max-width: 200px;
+      
+    }
+
+    .test-row-div{
+      margin: auto;
+    }
+
+    .test-card-body{
+      margin-bottom: 80px;
     }
   
 
@@ -993,8 +1006,8 @@ a{
   
     .proj-cards-but {
       font-size: 20px;
-      width: 150px;
-      height: 50px;
+      width: auto;
+      height: auto;
     }
   
 
@@ -1039,8 +1052,8 @@ a{
   
 
     input[type="submit"] {
-      width: 160px;
-      height: 60px;
+      width: auto;
+      height: auto;
       font-size: 25px;
     }
   
