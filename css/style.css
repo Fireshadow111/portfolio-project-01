@@ -78,7 +78,7 @@ a{
   background-color: none;
   animation-name: welcome;
   animation-duration: 25s;
-  animation-delay: 1.5s;
+  animation-delay: 0s;
   position: relative;
   animation-direction: alternate;
 }
@@ -634,42 +634,45 @@ a{
 
 
 
+
   /* Responsiveness */
 
 
+  @media screen and (max-width: 300px) {
 
-  @media screen and (min-width: 300px) {
+
 
     /* Home Page */
     #sec-1 {
       height: auto;
-      background-attachment: scroll;
     }
   
 
     .home-head {
       font-size: 40px;
+      height: auto;
     }
   
 
     .home-logo {
+      width: 150px;
+      height: 50px;
       margin-right: 10px;
-      margin-left: 5px;
+      margin-left: 10px;
     }
   
+
     .home-button {
-      width: 120px;
+      width: 130px;
       height: 40px;
-      font-size: 16px;
+      font-size: 18px;
     }
   
 
     .awd {
-      font-size: 20px;
+      font-size: 18px;
     }
   
-
-
 
     /* About Page */
     #sec-2 {
@@ -689,47 +692,52 @@ a{
 
     .about-me-body {
       font-size: 16px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   
-
+    
     .about-me-pi {
       font-size: 30px;
     }
   
+
     .about-me-pi-bod {
       font-size: 16px;
     }
   
 
-
+    .about-img {
+      width: 150px;
+      height: auto;
+    }
+  
 
     /* Skills Page */
     #sec-3 {
       height: auto;
     }
-
   
+
     .skills-head {
       font-size: 30px;
     }
   
-    .skills-card-title {
-      font-size: 18px;
-    }
 
+    .skills-card-title {
+      font-size: 20px;
+    }
   
+
     .skills-card-text {
-      font-size: 14px;
+      font-size: 16px;
     }
   
 
     .skills-img-top {
-      height: 180px;
+      height: auto;
+      max-width: 150px;
     }
   
-
-
 
     /* Testimonials Page */
     #sec-4 {
@@ -740,23 +748,23 @@ a{
     .test-head {
       font-size: 30px;
     }
-  
 
+  
     .test-card-title {
-      font-size: 18px;
+      font-size: 20px;
     }
-
   
+
     .test-card-text {
-      font-size: 14px;
+      font-size: 16px;
     }
   
+
     .test-card-img-top {
-      height: 220px;
+      height: auto;
+      max-width: 150px;
     }
   
-
-
 
     /* Project Page */
     #sec-5 {
@@ -768,35 +776,38 @@ a{
       font-size: 30px;
     }
   
+
     .proj-card-title {
-      font-size: 18px;
+      font-size: 20px;
     }
   
 
     .proj-cards-but {
-      font-size: 18px;
-      width: 90px;
+      font-size: 16px;
+      width: 120px;
       height: 40px;
     }
+
   
-
-
     /* Resume Page */
     #sec-6 {
       height: auto;
     }
   
+
     .resume-head {
-      font-size: 28px;
+      font-size: 30px;
     }
   
+
     .resume-title,
     .resume-title-2 {
       font-size: 20px;
     }
   
+
     .resume-details {
-      font-size: 20px;
+      font-size: 16px;
     }
   
 
@@ -806,10 +817,12 @@ a{
       height: auto;
     }
   
+
     .contact-head {
-      font-size: 28px;
+      font-size: 30px;
     }
   
+
     label,
     input[type="text"],
     textarea {
@@ -817,7 +830,7 @@ a{
     }
   
     input[type="submit"] {
-      width: 120px;
+      width: 130px;
       height: 40px;
       font-size: 18px;
     }
@@ -831,16 +844,218 @@ a{
     }
   
     .footer-name {
-      font-size: 24px;
+      font-size: 26px;
+    }
+  }
+  
+
+
+
+  @media screen and (max-width: 720px) {
+
+    /* Home Page */
+    #sec-1 {
+      height: auto;
+    }
+  
+
+    .home-head {
+      font-size: 50px;
+      height: auto;
+    }
+  
+
+    .home-logo {
+      width: 150px;
+      height: 50px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  
+    .home-button {
+      width: 150px;
+      height: 50px;
+      font-size: 20px;
+    }
+  
+    .awd {
+      font-size: 20px;
+    }
+  
+
+    
+    /* About Page */
+    #sec-2 {
+      height: auto;
+    }
+  
+    .about-me-head {
+      font-size: 40px;
+    }
+  
+    .about-me-title {
+      font-size: 25px;
+    }
+  
+
+    .about-me-body {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+  
+    .about-me-pi {
+      font-size: 40px;
+    }
+  
+
+    .about-me-pi-bod {
+      font-size: 20px;
+    }
+  
+    .about-img {
+      width: 200px;
+      height: auto;
+    }
+  
+
+
+    /* Skills Page */
+    #sec-3 {
+      height: auto;
+    }
+  
+    .skills-head {
+      font-size: 40px;
+    }
+  
+
+    .skills-card-title {
+      font-size: 25px;
+    }
+  
+    .skills-card-text {
+      font-size: 20px;
+    }
+  
+
+    .skills-img-top {
+      height: auto;
+      max-width: 200px;
+    }
+  
+
+
+    /* Testimonials Page */
+    #sec-4 {
+      height: auto;
+    }
+  
+    .test-head {
+      font-size: 40px;
+    }
+  
+
+    .test-card-title {
+      font-size: 25px;
+    }
+  
+
+    .test-card-text {
+      font-size: 20px;
+    }
+  
+    .test-card-img-top {
+      height: auto;
+      max-width: 200px;
+    }
+  
+
+
+    /* Project Page */
+    #sec-5 {
+      height: auto;
+    }
+  
+    .project-head {
+      font-size: 40px;
+    }
+  
+
+    .proj-card-title {
+      font-size: 25px;
+    }
+  
+    .proj-cards-but {
+      font-size: 20px;
+      width: 150px;
+      height: 50px;
+    }
+  
+
+
+    /* Resume Page */
+    #sec-6 {
+      height: auto;
+    }
+  
+    .resume-head {
+      font-size: 40px;
+    }
+  
+
+    .resume-title,
+    .resume-title-2 {
+      font-size: 25px;
+    }
+  
+    .resume-details {
+      font-size: 20px;
+    }
+  
+
+
+    /* Contact Page */
+    #sec-7 {
+      height: auto;
+    }
+  
+
+    .contact-head {
+      font-size: 40px;
+    }
+  
+
+    label,
+    input[type="text"],
+    textarea {
+      font-size: 20px;
+    }
+  
+
+    input[type="submit"] {
+      width: 160px;
+      height: 60px;
+      font-size: 25px;
+    }
+  
+
+    .icons {
+      margin-top: 40px;
+    }
+  
+    .footer {
+      font-size: 25px;
+    }
+  
+    .footer-name {
+      font-size: 35px;
     }
   }
 
 
-  
-
-  @media screen and (min-width: 720px) {
 
 
+  @media screen and (max-width: 1080px) {
 
     /* Home Page */
     #sec-1 {
@@ -849,23 +1064,26 @@ a{
   
     .home-head {
       font-size: 50px;
+      height: auto;
     }
   
+
     .home-logo {
-      width: 180px;
-      height: 60px;
+      width: 150px;
+      height: 50px;
       margin-right: 10px;
       margin-left: 10px;
     }
   
+
     .home-button {
       width: 150px;
       height: 50px;
-      font-size: 24px;
+      font-size: 20px;
     }
   
     .awd {
-      font-size: 24px;
+      font-size: 20px;
     }
   
 
@@ -880,9 +1098,10 @@ a{
     }
   
     .about-me-title {
-      font-size: 30px;
+      font-size: 25px;
     }
   
+
     .about-me-body {
       font-size: 20px;
       margin-bottom: 50px;
@@ -896,204 +1115,12 @@ a{
       font-size: 20px;
     }
   
-
-
-    /* Skills Page */
-    #sec-3 {
-      height: auto;
-    }
-  
-    .skills-head {
-      font-size: 40px;
-    }
-  
-    .skills-card-title {
-      font-size: 30px;
-    }
-  
-    .skills-card-text {
-      font-size: 24px;
-    }
-  
-    .skills-img-top {
-      height: 300px;
-    }
-  
-
-
-    /* Testimonials Page */
-    #sec-4 {
-      height: auto;
-    }
-  
-    .test-head {
-      font-size: 40px;
-    }
-  
-    .test-card-title {
-      font-size: 30px;
-    }
-  
-    .test-card-text {
-      font-size: 24px;
-    }
-  
-    .test-card-img-top {
-      height: 350px;
-    }
-  
-
-
-    /* Project Page */
-    #sec-5 {
-      height: auto;
-    }
-  
-    .project-head {
-      font-size: 40px;
-    }
-  
-    .proj-card-title {
-      font-size: 30px;
-    }
-  
-    .proj-cards-but {
-      font-size: 24px;
-      width: 130px;
-      height: 60px;
-    }
-  
-
-    
-    /* Resume Page */
-    #sec-6 {
-      height: auto;
-    }
-  
-    .resume-head {
-      font-size: 40px;
-    }
-  
-    .resume-title,
-    .resume-title-2 {
-      font-size: 30px;
-    }
-  
-    .resume-details {
-      font-size: 24px;
-    }
-  
-
-
-    /* Contact Page */
-    #sec-7 {
-      height: auto;
-    }
-  
-
-    .contact-head {
-      font-size: 40px;
-    }
-  
-
-    label,
-    input[type="text"],
-    textarea {
-      font-size: 24px;
-    }
-  
-
-    input[type="submit"] {
-      width: 150px;
-      height: 60px;
-      font-size: 30px;
-    }
-  
-
-    .icons {
-      margin-top: 50px;
-    }
-  
-
-    .footer {
-      font-size: 24px;
-    }
-  
-
-    .footer-name {
-      font-size: 34px;
-    }
-  }
-
-
-
-
-
-
-  @media screen and (min-width: 1080px) {
-
-    /* Home Page */
-    #sec-1 {
-      height: auto;
-    }
-  
-
-    .home-head {
-      font-size: 60px;
-    }
-  
-
-    .home-logo {
+    .about-img {
       width: 200px;
-      height: 70px;
-      margin-right: 10px;
-      margin-left: 10px;
-    }
-  
-
-    .home-button {
-      width: 180px;
-      height: 60px;
-      font-size: 28px;
-    }
-  
-
-    .awd {
-      font-size: 28px;
-    }
-  
-
-    /* About Page */
-    #sec-2 {
       height: auto;
     }
   
 
-    .about-me-head {
-      font-size: 50px;
-    }
-  
-
-    .about-me-title {
-      font-size: 35px;
-    }
-  
-
-    .about-me-body {
-      font-size: 24px;
-      margin-bottom: 60px;
-    }
-  
-
-    .about-me-pi {
-      font-size: 50px;
-    }
-  
-
-    .about-me-pi-bod {
-      font-size: 24px;
-    }
-  
 
 
     /* Skills Page */
@@ -1101,24 +1128,21 @@ a{
       height: auto;
     }
   
-
     .skills-head {
-      font-size: 50px;
+      font-size: 40px;
     }
   
-
     .skills-card-title {
-      font-size: 35px;
+      font-size: 25px;
     }
   
-
     .skills-card-text {
-      font-size: 28px;
+      font-size: 20px;
     }
   
-
     .skills-img-top {
-      height: 350px;
+      height: auto;
+      max-width: 200px;
     }
   
 
@@ -1128,26 +1152,24 @@ a{
       height: auto;
     }
   
-
     .test-head {
-      font-size: 50px;
+      font-size: 40px;
     }
   
-
     .test-card-title {
-      font-size: 35px;
+      font-size: 25px;
     }
   
-
     .test-card-text {
-      font-size: 28px;
+      font-size: 20px;
+    }
+  
+    .test-card-img-top {
+      height: auto;
+      max-width: 200px;
     }
   
 
-    .test-card-img-top {
-      height: 400px;
-    }
-  
 
 
     /* Project Page */
@@ -1155,23 +1177,22 @@ a{
       height: auto;
     }
   
-
     .project-head {
-      font-size: 50px;
+      font-size: 40px;
     }
   
     .proj-card-title {
-      font-size: 35px;
+      font-size: 25px;
     }
-
-
   
     .proj-cards-but {
-      font-size: 28px;
+      font-size: 20px;
       width: 150px;
-      height: 70px;
+      height: 50px;
     }
   
+
+
 
     /* Resume Page */
     #sec-6 {
@@ -1179,19 +1200,19 @@ a{
     }
   
     .resume-head {
-      font-size: 50px;
+      font-size: 40px;
     }
   
-
     .resume-title,
     .resume-title-2 {
-      font-size: 35px;
+      font-size: 25px;
     }
   
     .resume-details {
-      font-size: 28px;
+      font-size: 20px;
     }
   
+
 
     /* Contact Page */
     #sec-7 {
@@ -1199,34 +1220,30 @@ a{
     }
   
     .contact-head {
-      font-size: 50px;
+      font-size: 40px;
     }
   
-
     label,
     input[type="text"],
     textarea {
-      font-size: 28px;
+      font-size: 20px;
     }
   
-
     input[type="submit"] {
-      width: 180px;
-      height: 70px;
-      font-size: 32px;
+      width: 160px;
+      height: 60px;
+      font-size: 25px;
     }
   
-
     .icons {
-      margin-top: 60px;
+      margin-top: 40px;
     }
   
-
     .footer {
-      font-size: 28px;
+      font-size: 25px;
     }
   
     .footer-name {
-      font-size: 40px;
+      font-size: 35px;
     }
   }
