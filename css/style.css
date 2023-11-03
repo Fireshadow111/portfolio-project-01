@@ -78,7 +78,7 @@ a{
   background-color: none;
   animation-name: welcome;
   animation-duration: 25s;
-  animation-delay: 0s;
+  animation-delay: 3s;
   position: relative;
   animation-direction: alternate;
 }
