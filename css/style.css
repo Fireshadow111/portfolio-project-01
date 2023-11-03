@@ -50,7 +50,7 @@ a{
 }
 
 .home-page-div{
-  margin-top: 150px;
+  margin-top: 110px;
 
   
 }
@@ -58,7 +58,7 @@ a{
 .home-logo{
   width: 150px;
   height: 50px;
-  margin-right: 950px;
+  margin-right: 550px;
   margin-left: 10px;
 
  
@@ -301,7 +301,7 @@ a{
 /* Testimonials Page */
 
 #sec-4{
-  height: 1500px;
+  height: 1550px;
   /* background-image: url(/images/back-image/6.jpg);
   background-size: cover; */
   color: var(--razerGreen);
@@ -346,7 +346,7 @@ a{
   
 
   .test-card-body{
-    height: 300px;
+    height: 320px;
   }
 
 
@@ -638,6 +638,7 @@ a{
   /* Responsiveness */
 
 
+
   @media screen and (max-width: 300px) {
 
 
@@ -647,10 +648,15 @@ a{
       height: auto;
     }
   
+    .home-page-div{
+      width:auto;
+     
+    }
 
     .home-head {
       font-size: 40px;
       height: auto;
+      width: 300px;
     }
   
 
@@ -719,12 +725,12 @@ a{
   
 
     .skills-head {
-      font-size: 30px;
+      font-size: 29px;
     }
   
 
     .skills-card-title {
-      font-size: 20px;
+      font-size: 19px;
     }
   
 
@@ -1059,7 +1065,7 @@ a{
 
     /* Home Page */
     #sec-1 {
-      height: auto;
+      height: 600px;
     }
   
     .home-head {
@@ -1071,7 +1077,7 @@ a{
     .home-logo {
       width: 150px;
       height: 50px;
-      margin-right: 10px;
+      margin-right: 110px;
       margin-left: 10px;
     }
   
@@ -1125,7 +1131,7 @@ a{
 
     /* Skills Page */
     #sec-3 {
-      height: auto;
+      height: 550px;
     }
   
     .skills-head {
@@ -1141,15 +1147,22 @@ a{
     }
   
     .skills-img-top {
-      height: auto;
-      max-width: 200px;
+      height: 200px;
+      
     }
   
+    .skills-card-body{
+      height: 170px;
+    }
+
+    .skills-col-div{
+      margin:auto;
+    }
 
 
     /* Testimonials Page */
     #sec-4 {
-      height: auto;
+      height: 1670px;
     }
   
     .test-head {
@@ -1162,14 +1175,24 @@ a{
   
     .test-card-text {
       font-size: 20px;
+      
     }
   
     .test-card-img-top {
-      height: auto;
-      max-width: 200px;
+      height: 300px;
+      
     }
   
+    .test-row-div{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    }
 
+    .test-card-body{
+      
+      height: 400px;
+    }
 
 
     /* Project Page */
@@ -1196,7 +1219,7 @@ a{
 
     /* Resume Page */
     #sec-6 {
-      height: auto;
+      height: 490px;
     }
   
     .resume-head {
@@ -1216,7 +1239,7 @@ a{
 
     /* Contact Page */
     #sec-7 {
-      height: auto;
+      height: 900px;
     }
   
     .contact-head {
