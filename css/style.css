@@ -229,7 +229,7 @@ a{
 /* Skills Page */
 
 #sec-3{
-  height: 640px;
+  height: 580px;
   background-color: black;
   
   }
@@ -251,7 +251,7 @@ a{
 }
 
 .skills-card-body{
-  height: 120px;
+  height: 60px;
   background-color: var(--razerGreen);
   font-weight: bold;
   
